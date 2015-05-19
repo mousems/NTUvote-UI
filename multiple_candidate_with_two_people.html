@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html class='han-la' lang='zh-tw'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <title>NTU Voting</title>
+    <link href="css/all.css" rel="stylesheet" type="text/css" />
+    <script src="js/modernizr.js" type="text/javascript"></script>
+  </head>
+  <body class='multiple_candidate_with_two_people'>
+    <form action="" accept-charset="UTF-8" class="multiple-selection-form" method="post"><input name="skipped" class="skipped" style="display: none;" type="text" />
+    <div class='header'>
+      <hgroup class='title'>
+        <h1>NTU Voting</h1>
+        <h2>點選你想要投給誰</h2>
+      </hgroup>
+      <div class='actions two-actions'>
+        <button class='button skip'>Skip</button>
+        <input value="Submit" class="action button" type="submit" />
+      </div>
+      <input name="selection" id="selection" type="hidden" />
+    </div>
+    <div class='main' id='main'>
+      <div class='votes'>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>1</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/370x338/985fb0/016479)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/281x297/60aef2/a60bf3)'></div>
+            </div>
+            <div class='name'>
+              <div>吳立燦</div>
+              <div>黃尹胤</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>2</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/287x280/a018b6/432a19)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/221x292/c10ba8/2fe193)'></div>
+            </div>
+            <div class='name'>
+              <div>陳柏宏</div>
+              <div>謝雅玲</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>3</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/300x382/95a831/7b84e2)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/390x258/d37591/79fb13)'></div>
+            </div>
+            <div class='name'>
+              <div>劉建弘</div>
+              <div>蕭伶新</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>4</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/264x301/75b2a8/6452f1)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/241x256/ca9480/0a32bd)'></div>
+            </div>
+            <div class='name'>
+              <div>謝嘉玲</div>
+              <div>連青菁</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>5</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/365x217/acbf96/012594)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/206x364/d1208f/5641c0)'></div>
+            </div>
+            <div class='name'>
+              <div>白翠聿</div>
+              <div>黃鈺仲</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>6</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/202x352/0d4b65/cf8073)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/341x296/98c16f/3ecbfd)'></div>
+            </div>
+            <div class='name'>
+              <div>林修義</div>
+              <div>黃鈺仲</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>7</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/385x371/6359f7/e319c8)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/371x210/876fd1/dc8a2f)'></div>
+            </div>
+            <div class='name'>
+              <div>許佳慧</div>
+              <div>鄭崇盛</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>8</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/301x239/e34abf/932b08)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/327x297/c9fadb/b35681)'></div>
+            </div>
+            <div class='name'>
+              <div>莊雅能</div>
+              <div>張政儒</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>9</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/323x308/1ad7ef/6a9e4b)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/236x398/5e183a/8e35f9)'></div>
+            </div>
+            <div class='name'>
+              <div>鄭佐一</div>
+              <div>黃偉成</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>10</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/214x294/308edc/13bc67)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/282x344/5fc302/c9103f)'></div>
+            </div>
+            <div class='name'>
+              <div>楊登均</div>
+              <div>詹建宏</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>11</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/262x221/36b51f/63a879)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/203x399/435c9e/a273cb)'></div>
+            </div>
+            <div class='name'>
+              <div>李幸聿</div>
+              <div>陳淑輝</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>12</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/243x268/0693da/3e9cfd)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/299x297/180f3c/d6f385)'></div>
+            </div>
+            <div class='name'>
+              <div>崔星正</div>
+              <div>王耀德</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>13</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/263x312/508c79/b6f415)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/296x345/f9371e/e40cb2)'></div>
+            </div>
+            <div class='name'>
+              <div>黃盈君</div>
+              <div>陳家源</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>14</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/388x291/d7ec5b/7e5806)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/375x236/1905eb/53698b)'></div>
+            </div>
+            <div class='name'>
+              <div>張明屏</div>
+              <div>劉禹能</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>15</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/251x336/53cb74/ec7f21)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/354x345/0d36f2/1e8d6c)'></div>
+            </div>
+            <div class='name'>
+              <div>吳芝紋</div>
+              <div>陳郁婷</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>16</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/255x365/c73a96/e0afcb)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/222x392/d94382/90f124)'></div>
+            </div>
+            <div class='name'>
+              <div>黎玉華</div>
+              <div>吳怡修</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>17</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/390x221/2a59f0/5cb120)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/395x375/df9374/32840b)'></div>
+            </div>
+            <div class='name'>
+              <div>游興燦</div>
+              <div>陳韻屏</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>18</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/212x307/9104b2/13b427)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/210x234/496a03/6a7d03)'></div>
+            </div>
+            <div class='name'>
+              <div>張明屏</div>
+              <div>謝嘉玲</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>19</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/202x229/9485a7/7d4625)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/272x239/5ca4df/8ad36f)'></div>
+            </div>
+            <div class='name'>
+              <div>路鈞婷</div>
+              <div>林修義</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>20</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/281x372/897e4f/79f3b5)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/367x321/b4f568/10dec7)'></div>
+            </div>
+            <div class='name'>
+              <div>林文達</div>
+              <div>劉燦芷</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>21</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/372x200/64b19e/17382e)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/354x263/a8e1d0/5db70a)'></div>
+            </div>
+            <div class='name'>
+              <div>鄭英信</div>
+              <div>王耀德</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>22</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/392x289/2dc35a/acef64)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/226x399/57b28e/68db75)'></div>
+            </div>
+            <div class='name'>
+              <div>陳韻屏</div>
+              <div>蘇家宏</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>23</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/306x203/d329fa/675938)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/337x225/324ef6/1eb853)'></div>
+            </div>
+            <div class='name'>
+              <div>吳惠婷</div>
+              <div>衡欣儀</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>24</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/322x218/15b9c4/5e30db)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/313x298/b34987/f8d964)'></div>
+            </div>
+            <div class='name'>
+              <div>淩詩涵</div>
+              <div>蔡國函</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>25</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/275x316/76e294/2c9803)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/213x260/4bf037/07ebf1)'></div>
+            </div>
+            <div class='name'>
+              <div>傅萱星</div>
+              <div>游秀娟</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>26</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/383x216/37c2bd/9d0e62)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/340x309/20576e/f95d6e)'></div>
+            </div>
+            <div class='name'>
+              <div>張誠合</div>
+              <div>方育廷</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>27</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/292x328/a90e68/38e5d4)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/398x365/ab0f81/2d807c)'></div>
+            </div>
+            <div class='name'>
+              <div>鄭于真</div>
+              <div>黃偉成</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>28</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/334x206/e832db/0812e7)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/234x266/41dfc5/f9b50d)'></div>
+            </div>
+            <div class='name'>
+              <div>陳鎮宇</div>
+              <div>陳淑輝</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>29</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/286x215/8d64b5/507843)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/221x346/243056/bf2cd0)'></div>
+            </div>
+            <div class='name'>
+              <div>張致喜</div>
+              <div>洪建佑</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>30</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/289x218/4c1ef8/7b2c53)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/219x393/ec6b95/bdf138)'></div>
+            </div>
+            <div class='name'>
+              <div>林彥安</div>
+              <div>簡旭淳</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>31</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/344x226/09865a/4eab96)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/225x335/304fa8/c1bf5e)'></div>
+            </div>
+            <div class='name'>
+              <div>邱淑堅</div>
+              <div>夏彥儒</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>32</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/345x323/a8bfe3/eb182f)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/347x272/4c06f7/c6f108)'></div>
+            </div>
+            <div class='name'>
+              <div>郭君胤</div>
+              <div>丁艾紋</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>33</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/279x380/c5a082/875f04)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/209x265/ade238/fed9b3)'></div>
+            </div>
+            <div class='name'>
+              <div>張書霖</div>
+              <div>陳淑輝</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>34</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/334x351/40fad5/fc961a)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/378x318/4bedc0/cab038)'></div>
+            </div>
+            <div class='name'>
+              <div>林則亦</div>
+              <div>趙貴昀</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>35</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/354x360/4ec60a/6c3584)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/273x334/45ad60/7b045e)'></div>
+            </div>
+            <div class='name'>
+              <div>謝緯仁</div>
+              <div>鄭佐一</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>36</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/273x274/7d42b8/5e8706)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/355x324/ba31df/258760)'></div>
+            </div>
+            <div class='name'>
+              <div>衡欣儀</div>
+              <div>林雅君</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>37</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/360x310/391bd7/7806b1)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/249x259/97648e/a27f18)'></div>
+            </div>
+            <div class='name'>
+              <div>劉建弘</div>
+              <div>杜慧君</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>38</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/340x245/a8c3e1/3a1e62)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/274x211/d74ca1/b57093)'></div>
+            </div>
+            <div class='name'>
+              <div>蘇家宏</div>
+              <div>蘇玟甫</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>39</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/385x379/f821d0/ea0d97)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/274x241/89e437/c23a5f)'></div>
+            </div>
+            <div class='name'>
+              <div>袁惠茹</div>
+              <div>徐如君</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>40</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/332x343/8a3fc7/ba1609)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/347x357/3764b2/892e1c)'></div>
+            </div>
+            <div class='name'>
+              <div>陳珮旭</div>
+              <div>瞿玄誠</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>41</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/362x291/4d1eaf/6d0c74)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/349x333/501fea/0e7cba)'></div>
+            </div>
+            <div class='name'>
+              <div>涂兆平</div>
+              <div>葉耀德</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>42</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/216x214/d8c120/b34dce)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/297x327/57fcd6/90512f)'></div>
+            </div>
+            <div class='name'>
+              <div>陳惠珠</div>
+              <div>黃卉月</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>43</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/274x224/f47a8e/4f60e8)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/219x223/2b0c9a/69c305)'></div>
+            </div>
+            <div class='name'>
+              <div>黃明翰</div>
+              <div>陳姿穎</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>44</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/245x356/5432e9/864b12)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/375x297/e9765f/f8d03b)'></div>
+            </div>
+            <div class='name'>
+              <div>劉育華</div>
+              <div>劉育華</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>45</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/212x231/80b5ec/bfd730)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/209x326/472591/8b92de)'></div>
+            </div>
+            <div class='name'>
+              <div>陳凱穎</div>
+              <div>王康蓁</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>46</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/323x314/dc7f4b/84af30)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/370x232/b98ade/59f03a)'></div>
+            </div>
+            <div class='name'>
+              <div>王康蓁</div>
+              <div>許偉婷</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>47</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/281x257/7c986b/b14370)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/239x281/ad3ce8/a418fd)'></div>
+            </div>
+            <div class='name'>
+              <div>吳文傑</div>
+              <div>吳芝紋</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>48</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/280x217/d10fa3/a3bef8)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/235x226/9a23ef/43d0f7)'></div>
+            </div>
+            <div class='name'>
+              <div>王彥志</div>
+              <div>謝緯仁</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>49</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/214x280/852d90/deb60a)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/350x258/92d471/084b69)'></div>
+            </div>
+            <div class='name'>
+              <div>連青菁</div>
+              <div>陳仰季</div>
+            </div>
+          </div>
+        </div>
+        <div class='vote'>
+          <div class='candidate selection big'>
+            <div class='id'>50</div>
+            <div class='elect'></div>
+            <div class='pic'>
+              <div class='img' style='background-image: url(http://placehold.it/294x293/910b53/2b6173)'></div>
+              <div class='img' style='background-image: url(http://placehold.it/237x215/a1c36f/96f30a)'></div>
+            </div>
+            <div class='name'>
+              <div>杜俊偉</div>
+              <div>許惠萱</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </form>
+    <script src="js/all.js" type="text/javascript"></script>
+  </body>
+</html>
